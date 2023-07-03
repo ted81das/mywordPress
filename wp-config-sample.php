@@ -84,6 +84,32 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
+define('WP_POST_REVISIONS', 20);
+define('EMPTY_TRASH_DAYS', 7);
+define ('DISALLOW_FILE_EDIT', true); 	
+define( 'DISALLOW_FILE_MODS', true );
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+define( 'WP_AUTO_UPDATE_CORE', false );
+define( 'WP_AUTO_UPDATE_CORE', true );
+define( 'AST_WL_ASTRA_AGENCY_AUTHOR', 'iWeb Designs' );
+define( 'AST_WL_ASTRA_AGENCY_AUTHOR_URL', 'iweb.cro.bz' );
+define( 'AST_WL_ASTRA_AGENCY_LICENCE', 'iweb.cro.bz );
+define( 'AST_WL_ASTRA_NAME', 'Fastest WP Theme' );
+define( 'AST_WL_ASTRA_DESCRIPTION', 'iWeb theme' );
+define( 'AST_WL_ASTRA_SCREENSHOT', 'www.your-theme-screenshot-url.com' );            
+define( 'AST_WL_ASTRA_PRO_NAME', 'Pro Addon' );         
+define( 'AST_WL_ASTRA_PRO_DESCRIPTION', 'Pro Addon extends the features of theme' );
+define( 'AST_WL_ASTRA_SITES_NAME', 'Ready Sites' );       
+define( 'AST_WL_ASTRA_SITES_DESCRIPTION', 'Library of Ready sites' );
+define( 'AST_WL_BSF_LW_SB_NAME', 'Custom Sidebar Manager' );      
+define( 'AST_WL_BSF_LW_SB_DESCRIPTION', 'Manage your Sidebar' );    
+define( 'AST_WL_ASTRA_HOOKS_NAME', 'Hooks for theme' );           
+define( 'AST_WL_ASTRA_HOOKS_DESCRIPTION', 'Use hooks to put custom code' ); 
+define( 'AST_WL_BSF_CUSTOM_FONTS_NAME', 'My Custom Fonts' ); 
+define( 'AST_WL_BSF_CUSTOM_FONTS_DESCRIPTION', 'Add custom fonts' ); 
+define( 'AST_WL_CUSTOM_TYPEKIT_FONTS_NAME', 'My fonts' ); 
+define( 'AST_WL_CUSTOM_TYPEKIT_FONTS_DESCRIPTION', 'Add custom typekit font' ); 
+
 
 /* That's all, stop editing! Happy publishing. */
 
